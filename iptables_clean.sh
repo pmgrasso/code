@@ -1,5 +1,4 @@
 #!/bin/bash
-# 20210604
 
 echo "ELIMINANDO REGLAS IPTABLES"
 
