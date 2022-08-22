@@ -24,8 +24,6 @@ error_reporting(E_ALL);
  * @
 **/
 
-
-
 // Abstract parent class's
 abstract class showMe {
 
@@ -45,7 +43,6 @@ abstract class showMe {
     }
 
     abstract function _showTxt();
-
 
 }
 
@@ -69,9 +66,7 @@ final class SubClass extends showMe {
         unset($this->who);
     }
 
-
 }
-
 
 $_show = new SubClass('Welcome','repository','to my');
 echo $_show->_showTxt();
