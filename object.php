@@ -73,7 +73,7 @@ final class SubClass extends showMe {
 }
 
 
-$_show = new SubClass('Hello','World','to my');
+$_show = new SubClass('Welcome','repository','to my');
 echo $_show->_showTxt();
 
 //var_dump($_show);
