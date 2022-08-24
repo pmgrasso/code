@@ -7,7 +7,7 @@ class theType2
         if(gettype($input) == $type && $input >= 0 ){  
         return TRUE;
         } else {
-            throw new Exception("Value must be ".$type.' and > 0');
+            throw new Exception("Value must be ".$type." and > 0");
         } 
         //return FALSE;        
     }
